@@ -1,9 +1,10 @@
+import Header from "./components/data/header/Header";
 import "./global/GlobalStyle.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Takdir</h1>
+      <Header />
     </div>
   );
 }
