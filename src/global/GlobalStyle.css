@@ -8,9 +8,8 @@
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  line-height: 1.5;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400 !important;
 }
 
 h1,
@@ -19,11 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 800;
-  margin-bottom: 0.5rem;
-}
-
-p {
+  font-weight: 800 !important;
   margin-bottom: 0.5rem;
 }
 
@@ -37,4 +32,8 @@ svg {
 input,
 button {
   outline: none;
+}
+
+.App {
+  width: 100%;
 }
