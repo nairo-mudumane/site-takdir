@@ -10,7 +10,9 @@ const Header = () => {
               <div className="col-lg-12">
                 <nav className={styles.nav}>
                   <ul>
-                    <li>i</li>
+                    <li>
+                      <i className="fas fa-home"></i>
+                    </li>
                     <li>i</li>
                     <li>i</li>
                     <li>i</li>
