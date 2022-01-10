@@ -37,3 +37,20 @@ button {
 .App {
   width: 100%;
 }
+
+/* active nav link */
+.active {
+  color: red !important;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  background-color: red;
+  border-radius: 50%;
+
+  width: 6px;
+  height: 6px;
+  position: relative;
+  left: 65%;
+}
