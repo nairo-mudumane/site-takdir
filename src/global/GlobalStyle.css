@@ -46,6 +46,8 @@ button {
 .active::after {
   content: "";
   display: block;
+  color: inherit;
+  font: inherit;
   background-color: red;
   border-radius: 50%;
 

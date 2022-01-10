@@ -16,8 +16,7 @@
 .border {
   width: 30%;
   height: 6px;
-  margin: 1rem auto;
-  margin-bottom: 0.4rem;
+  margin: 0.4rem auto !important;
 
   background-color: #cecece;
   border-radius: 20px;
@@ -49,4 +48,13 @@
 
 .link:hover {
   color: red;
+}
+
+.nav {
+  height: 0;
+  overflow: 0;
+}
+
+.radius:hover .nav {
+  height: 8rem;
 }
