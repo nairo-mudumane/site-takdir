@@ -9,7 +9,7 @@ import food3 from "../../assets/food3.png";
 export default function MainPlates() {
   return (
     <Container>
-      <div className={styles.grid}>
+      <div className={styles.flex}>
         <PlateCard
           big
           name="Yoshimasa Suchi"
@@ -20,32 +20,34 @@ export default function MainPlates() {
           desc="Commodo consequat mollit proident voluptate consequat ipsum quis magna esse elit aliquip sunt amet."
         />
 
-        <PlateCard
-          name="Suchi 2"
-          bgColor="red"
-          image={food2}
-          alt=""
-          datePosted="04/05/2021"
-          rating={3}
-        />
+        <div className={styles.grid}>
+          <PlateCard
+            name="Suchi 2"
+            bgColor="black"
+            image={food2}
+            alt=""
+            datePosted="04/05/2021"
+            rating={3}
+          />
 
-        <PlateCard
-          name="Suchi 2"
-          bgColor="black"
-          image={food3}
-          alt=""
-          datePosted="04/05/2021"
-          rating={3}
-        />
+          <PlateCard
+            name="Suchi 2"
+            bgColor="black"
+            image={food3}
+            alt=""
+            datePosted="04/05/2021"
+            rating={3}
+          />
 
-        <PlateCard
-          name="Suchi 2"
-          bgColor="black"
-          image={food3}
-          alt=""
-          datePosted="04/05/2021"
-          rating={3}
-        />
+          <PlateCard
+            name="Suchi 2"
+            bgColor="black"
+            image={food3}
+            alt=""
+            datePosted="04/05/2021"
+            rating={3}
+          />
+        </div>
       </div>
     </Container>
   );

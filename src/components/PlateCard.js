@@ -70,7 +70,9 @@ export default function PlateCard({
       to="/"
       className={`${styles.card} ${styles.cardSmall} ${
         bgColor === "black" && styles.blackCard
-      } ${bgColor === "red" && styles.redCard}`}
+      } ${bgColor === "red" && styles.redCard} ${
+        bgColor === "pink" && styles.pinkCard
+      } ${bgColor === "blue-green" && styles.blueGreen}`}
     >
       <div className={styles.image}>
         <img src={image} alt={alt} />
