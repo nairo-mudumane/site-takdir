@@ -21,3 +21,15 @@
 .data {
   margin: 1rem 0;
 }
+
+@media only screen and (max-width: 425px) {
+  .title::after {
+    width: 66%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .title::after {
+    width: 56%;
+  }
+}

@@ -1,6 +1,7 @@
 .container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  align-content: flex-start;
   justify-content: space-between;
 
   border-radius: 6px;
@@ -38,4 +39,19 @@
 .stars {
   color: var(--color-yellow-1);
   font-size: 0.8em;
+}
+
+@media only screen and (max-width: 425px) {
+  .desc {
+    flex: 1 1 70%;
+  }
+  .desc p {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .desc {
+    flex: 1 1 50%;
+  }
 }
