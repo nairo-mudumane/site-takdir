@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.image {
+  border-radius: 6px;
+  overflow: hidden;
+  width: 10rem;
+  height: 6rem;
+}
+
+.desc {
+  flex: 1 1 40rem;
+  margin: 0 1rem;
+  position: relative;
+}
+
+.stars {
+  color: var(--color-yellow-1);
+  font-size: 0.8em;
+}

@@ -1,0 +1,23 @@
+.title {
+  margin-bottom: 1rem;
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  border-radius: 20px;
+  background-color: var(--color-gray-1);
+
+  width: 80%;
+  height: 3px;
+}
+
+.data {
+  margin: 1rem 0;
+}

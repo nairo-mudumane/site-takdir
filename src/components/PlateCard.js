@@ -36,6 +36,7 @@ export default function PlateCard({
         <div className={styles.title}>
           <Title text={name} font={1.2} />
 
+          {/* todo:show rating */}
           <div className={styles.rating}>
             <div className={styles.ratingStars}>
               {rating === 1 ? (
