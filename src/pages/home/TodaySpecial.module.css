@@ -4,8 +4,6 @@
   align-content: center;
   justify-content: space-between;
   align-items: center;
-
-  max-width: 50%;
 }
 
 .btnBuy {
@@ -24,4 +22,8 @@
   color: var(--color-white-1);
   box-shadow: 0px 2px 14px rgb(0 255 145);
   border-color: rgb(142 223 188);
+}
+
+.muted h5 {
+  font-size: 1.1em;
 }

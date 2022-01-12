@@ -8,7 +8,11 @@ export default function TodaySpecial() {
     <>
       <Container>
         <div className={styles.title}>
-          <Title text="Prato especial" font={2} color="var(--color-black-1-)" />
+          <Title
+            text="Prato especial"
+            font={2.5}
+            color="var(--color-black-1-)"
+          />
 
           <Link to="/" className={styles.btnBuy}>
             Comprar
