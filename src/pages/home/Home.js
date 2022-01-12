@@ -1,12 +1,16 @@
 import React from "react";
 import PageWrapper from "../../components/layout/PageWrapper";
+import Section from "../../components/layout/Section";
 import styles from "./Home.module.css";
+import TodaySpecial from "./TodaySpecial";
 
 export default function Home() {
   return (
     <PageWrapper>
       <div className={styles.container}>
-        <h1>Home page</h1>
+        <Section>
+          <TodaySpecial />
+        </Section>
       </div>
     </PageWrapper>
   );

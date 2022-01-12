@@ -1,0 +1,15 @@
+.container,
+.text {
+  color: var(--color-black-1) !important;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font: inherit;
+  color: inherit;
+  margin-right: 1rem;
+}

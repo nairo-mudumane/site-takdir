@@ -1,6 +1,8 @@
 :root {
   --color-white-1: #ffffff;
+  --color-black-1: #0e0b0b;
   --color-red-1: red;
   --color-gray-1: #cecece;
+  --color-green-1: #00e482;
   --color-rgba-black: rgba(0, 0, 0, 0.5);
 }
