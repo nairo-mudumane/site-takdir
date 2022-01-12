@@ -1,0 +1,38 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0px 0px 8px var(--color-rgba-black);
+  background-color: var(--color-red-1);
+  border-radius: 50%;
+  border: 2px solid;
+
+  color: var(--color-white-1);
+  font-size: 1em;
+
+  width: 40px;
+  height: 40px;
+
+  position: fixed;
+  right: 2%;
+  top: 90%;
+  z-index: 100;
+
+  transition: all 0.3s ease;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-white-1);
+
+  box-shadow: 0px 2px 18px #d65a49;
+  border-color: #da1900;
+  transform: scale(0.8);
+}
+
+@media only screen and (min-width: 2560px) {
+  .link {
+    right: 24%;
+  }
+}

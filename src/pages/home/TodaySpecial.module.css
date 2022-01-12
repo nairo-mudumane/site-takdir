@@ -20,6 +20,8 @@
 .btnBuy:hover,
 .btnBuy:focus {
   color: var(--color-white-1);
+  transform: scale(0.9);
+
   box-shadow: 0px 2px 14px rgb(0 255 145);
   border-color: rgb(142 223 188);
 }

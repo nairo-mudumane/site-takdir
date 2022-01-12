@@ -1,4 +1,5 @@
 import React from "react";
+import CartBtn from "../../components/CartBtn";
 import PageWrapper from "../../components/layout/PageWrapper";
 import Section from "../../components/layout/Section";
 import styles from "./Home.module.css";
@@ -16,6 +17,7 @@ export default function Home() {
           <MainPlates />
         </Section>
       </div>
+      <CartBtn />
     </PageWrapper>
   );
 }
