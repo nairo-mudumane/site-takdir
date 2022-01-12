@@ -29,3 +29,9 @@
 .muted h5 {
   font-size: 1.1em;
 }
+
+@media only screen and (max-width: 768px) {
+  .muted h5 {
+    font-size: 1em;
+  }
+}

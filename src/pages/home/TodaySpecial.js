@@ -12,7 +12,7 @@ export default function TodaySpecial() {
         </div>
 
         <div className={styles.title}>
-          <Title text="Lorem ipsu" font={2.5} color="var(--color-black-1-)" />
+          <Title text="Lorem ipsu" font={2.0} color="var(--color-black-1-)" />
 
           <Link to="/" className={styles.btnBuy}>
             Comprar
