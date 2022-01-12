@@ -7,20 +7,16 @@ export default function TodaySpecial() {
   return (
     <>
       <Container>
+        <div className={styles.muted}>
+          <h5 className="text-muted">Promocao do dia</h5>
+        </div>
+
         <div className={styles.title}>
-          <Title
-            text="Prato especial"
-            font={2.5}
-            color="var(--color-black-1-)"
-          />
+          <Title text="Lorem ipsu" font={2.5} color="var(--color-black-1-)" />
 
           <Link to="/" className={styles.btnBuy}>
             Comprar
           </Link>
-        </div>
-
-        <div className={styles.muted}>
-          <h5 className="text-muted">Lorem ipsu dolor sit amet</h5>
         </div>
       </Container>
     </>
