@@ -1,6 +1,6 @@
 .container,
 .text {
-  color: var(--color-black-1) !important;
+  text-decoration: none;
 }
 
 .container {
