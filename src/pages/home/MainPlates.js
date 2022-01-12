@@ -8,7 +8,15 @@ export default function MainPlates() {
   return (
     <Container>
       <div className={styles.grid}>
-        <PlateCard big image={imageSrc} alt="Suchi" />
+        <PlateCard
+          big
+          name="Yoshimasa Suchi"
+          rating={3}
+          datePosted="20/02/2021"
+          image={imageSrc}
+          alt="Suchi"
+          desc="Commodo consequat mollit proident voluptate consequat ipsum quis magna esse elit aliquip sunt amet."
+        />
       </div>
     </Container>
   );
