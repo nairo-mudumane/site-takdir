@@ -40,7 +40,7 @@ button {
 
 /* active nav link */
 .active {
-  color: red !important;
+  color: var(--color-red-1) !important;
 }
 
 .active::after {
@@ -48,7 +48,7 @@ button {
   display: block;
   color: inherit;
   font: inherit;
-  background-color: red;
+  background-color: var(--color-red-1);
   border-radius: 50%;
 
   width: 6px;
