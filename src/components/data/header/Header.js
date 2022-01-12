@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Title from "../../text/Title";
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -13,17 +14,32 @@ const Header = () => {
                   <ul>
                     <li>
                       <NavLink to="/" className={styles.link}>
-                        <i className="fas fa-home" />
+                        <Title
+                          text="Inicio"
+                          color="var(--color-black-1)"
+                          font={1}
+                          icon="fas fa-home"
+                        />
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/test" className={styles.link}>
-                        <i className="fas fa-home" />
+                      <NavLink to="/requests" className={styles.link}>
+                        <Title
+                          text="Pedidos"
+                          color="var(--color-black-1)"
+                          font={1}
+                          icon="fas fa-clipboard-list"
+                        />
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/asda" className={styles.link}>
-                        <i className="fas fa-home" />
+                      <NavLink to="/perfil" className={styles.link}>
+                        <Title
+                          text="Perfil"
+                          color="var(--color-black-1)"
+                          font={1}
+                          icon="fas fa-user"
+                        />
                       </NavLink>
                     </li>
                   </ul>
