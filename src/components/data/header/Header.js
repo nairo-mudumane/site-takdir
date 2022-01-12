@@ -29,7 +29,9 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className={`${styles.border} col-lg-6`}></div>
+              <div className="col-lg-12">
+                <div className={styles.border} />
+              </div>
             </div>
           </div>
         </div>
