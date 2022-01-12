@@ -11,16 +11,16 @@ export default function MenuItem({ data }) {
         <img src={data.banner} alt={data.bannerAlt} />
       </Link>
 
-      <div className={styles.desc}>
-        <Link to="/" className={styles.name}>
+      <Link to="/" className={styles.desc}>
+        <div className={styles.name}>
           <Title text={data.name} color="var(--color-black-1)" font={1.2} />
-        </Link>
+        </div>
         <p className={`${styles.stars} no-margin`}>
           <Icons icon="fas fa-star" />{" "}
           <span className="text-muted">{data.stars}</span>
         </p>
         <p>{data.description}</p>
-      </div>
+      </Link>
     </li>
   );
 }

@@ -3,8 +3,22 @@
   align-items: center;
   justify-content: space-between;
 
+  border-radius: 6px;
+
   width: 100%;
+  padding: 0.5rem;
   margin: 1rem 0;
+  position: relative;
+
+  transition: all 0.2s ease;
+}
+
+.container:hover,
+.container:focus,
+.desc:hover,
+.desc:focus {
+  color: var(--color-black-1);
+  background-color: var(--color-white-2);
 }
 
 .image {
@@ -15,6 +29,7 @@
 }
 
 .desc {
+  color: var(--color-black-1);
   flex: 1 1 40rem;
   margin: 0 1rem;
   position: relative;
