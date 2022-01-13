@@ -4,7 +4,7 @@ import PlateCard from "../../components/PlateCard";
 import styles from "./MainPlates.module.css";
 import food1 from "../../assets/food1.png";
 import food2 from "../../assets/food2.png";
-import food3 from "../../assets/food3.png";
+import food3 from "../../assets/food2.png";
 
 export default function MainPlates() {
   return (

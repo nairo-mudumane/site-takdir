@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./PlateCard.module.css";
 import Title from "./text/Title";
+import Icons from "../components/Icons";
 
 export default function PlateCard({
   big,
@@ -39,13 +40,8 @@ export default function PlateCard({
           {/* todo:show rating */}
           <div className={styles.rating}>
             <div className={styles.ratingStars}>
-              {rating === 1 ? (
-                <span className={styles.star}>
-                  <i className="fas fa-star"></i>
-                </span>
-              ) : (
-                loopStars(rating)
-              )}
+              <Icons icon="fas fa-star" className={styles.star} />
+              <span className="text-muted">34 k</span>
             </div>
             {datePosted && (
               <div className={styles.datePosted}>
@@ -84,13 +80,14 @@ export default function PlateCard({
 
         <div className={styles.rating}>
           <div className={styles.ratingStars}>
-            <span className={styles.star}>
-              <i className="fas fa-star"></i>
-            </span>
+            <Icons icon="fas fa-star" className={styles.star} />
+            <span className="text-muted">34 k</span>
           </div>
-          <div className={styles.datePosted}>
-            <p className="no-margin">em: 12/12/2012</p>
-          </div>
+          {datePosted && (
+            <div className={styles.datePosted}>
+              <p className="no-margin">em: {datePosted}</p>
+            </div>
+          )}
         </div>
       </div>
     </Link>
