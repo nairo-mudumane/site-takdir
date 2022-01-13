@@ -19,7 +19,7 @@ export default function MenuItem({ data }) {
           <Icons icon="fas fa-star" />{" "}
           <span className="text-muted">{data.stars}</span>
         </p>
-        <p>{data.description}</p>
+        <p className="no-margin">{data.description}</p>
       </Link>
     </li>
   );
