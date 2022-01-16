@@ -12,7 +12,6 @@ function App() {
         <Header />
         <Routes>
           <Route exat path="/" end element={<Home />} />
-          <Route exat path="/test" element={<div>test</div>} />
         </Routes>
       </BrowserRouter>
     </>
